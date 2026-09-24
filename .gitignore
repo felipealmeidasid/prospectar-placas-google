@@ -1,0 +1,25 @@
+# Local prospecting data and exports
+/data/
+/prospeccao-placas/
+/runs/
+/events/
+*.csv
+*.xlsx
+*.pdf
+*.jsonl
+*.lock
+relatorio*.md
+# Credentials and personal configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+/.codex/
+/.claude/
+# Local clutter
+.DS_Store
+Thumbs.db
+__pycache__/
+node_modules/
