@@ -5,7 +5,7 @@ description: Pesquisar comércios no Google por cidade e bairro para vender plac
 
 # Prospecção de placas de avaliação
 
-Execute a pesquisa no navegador disponível no Codex, iniciada pelo usuário. Entregue até 20 novos leads qualificados por rodada, agrupados por proximidade para facilitar entregas presenciais. Não envie mensagens nem o vídeo: o usuário fará o contato.
+Execute a pesquisa no navegador disponível no agente atual (Codex, Claude Code, Antigravity ou equivalente), iniciada pelo usuário. Confira as ferramentas disponíveis, sem assumir nomes ou APIs de outro ambiente. O agente precisa de navegação pública e leitura/escrita de arquivos; sem isso, informe a limitação antes de pesquisar. Entregue até 20 novos leads qualificados por rodada, agrupados por proximidade para facilitar entregas presenciais. Não envie mensagens nem o vídeo: o usuário fará o contato.
 
 ## Início
 
@@ -13,7 +13,7 @@ Recolha apenas o que faltar: cidade e UF, bairro opcional e condições de entre
 
 Oferta aprovada, ambos com QR Code e NFC: placa em L R$ 70; placa adesiva 10 × 10 cm com fita dupla face R$ 50. Não invente personalização, impermeabilidade, garantia, parcelamento, estoque ou prazo. Mudanças de oferta precisam vir do usuário.
 
-Leia [history.md](references/history.md) antes da busca e [report.md](references/report.md) antes de selecionar e entregar os leads. Use a pasta de dados fixa especificada no histórico, independentemente do diretório da conversa. Não use a memória conversacional nem a memória geral do Codex como cadastro de leads.
+Leia [history.md](references/history.md) antes da busca e [report.md](references/report.md) antes de selecionar e entregar os leads. Use a pasta de dados fixa especificada no histórico, independentemente do diretório da conversa. Não use a memória conversacional nem a memória geral do assistente como cadastro de leads.
 
 ## Pesquisa por região
 

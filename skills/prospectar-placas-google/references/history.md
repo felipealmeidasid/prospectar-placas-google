@@ -3,6 +3,8 @@
 Raiz persistente padrão: `<CODEX_HOME>/data/prospectar-placas-google/`. Resolva CODEX_HOME pelo ambiente; quando ausente, use `.codex` na pasta pessoal do usuário. Resolva e informe o caminho absoluto antes do primeiro uso. O histórico fica fora do repositório e da pasta da skill, para sobreviver às atualizações.
 Não crie outra raiz automaticamente em outra conversa. Se não estiver acessível, peça ao usuário para disponibilizar essa pasta. Ao transferir o agente para outra máquina, transfira também o histórico e ajuste esta referência explicitamente.
 
+Essa mesma regra de caminho vale no Claude Code, Antigravity e demais agentes. O nome da pasta `.codex` é mantido por compatibilidade com históricos anteriores e não exige instalar o Codex. Se os agentes enxergarem valores diferentes de CODEX_HOME, peça o caminho absoluto do histórico já utilizado e use-o nesta rodada; não crie um segundo cadastro. Ao alternar ferramentas, confirme esse caminho com o operador. Permissões para acessar a pasta dependem do ambiente; não contorne restrições.
+
 ## Organização
 
 - `runs/<run-id>/`: entrada da rodada, cobertura, relatório e CSV. Use data/hora UTC mais identificador aleatório para impedir colisões.
